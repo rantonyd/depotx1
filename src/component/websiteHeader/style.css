@@ -1,0 +1,91 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    z-index: 1000;
+    top: 0;
+}
+.websiteHeader-Box1{
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 20px ;
+    display: flex; 
+    align-items: center; 
+   
+}
+
+.websiteHeader-Box2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding:0px 5px 0px 0px;
+    
+    @media Screen and (max-width: 990px) {
+      display: none;
+    }
+}  
+.websiteHeader-Box3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; 
+    flex: 5;
+    align-items: center;
+}  
+ .item{
+    
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.websiteHeader-Box4{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    padding:0px 0px 0px 10px;
+    display: flex;
+    align-items: flex-end;
+} 
+.search{
+   Border:1.5px solid white;
+   background-color: transparent;
+   color: white;
+}
+
+.websiteHeader-Box5{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 20px;
+
+}
+.websiteHeader-Box6{
+    width: 60%;
+    padding: 0px 25px 0px 25px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #FFB700 0%, #FF2544 95.48%);
+    align-items: center;
+}  
+.websiteHeader-Box6 button{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em; 
+    text-align: left;
+    color: #FFFFFF;
+}
+.si{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    @media Screen and (min-width: 990px) {
+        display: none;
+      }
+}

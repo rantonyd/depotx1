@@ -1,0 +1,79 @@
+.homeScreen-Box4{
+    
+  width: 40%;
+    /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 100px 0px 0px 0px;
+
+  @media Screen and (max-width: 950px) {
+    display: none;
+  }
+}
+.quote-Box{
+    width: 73%;
+    /* height: 60%; */
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius:8px;
+    /* position: absolute; */
+  
+   
+  }
+.quote-Box1{
+    width: 100%;
+    font-size: 40px;
+    background: linear-gradient(to right, #FFBA00, #FF2542);
+   /* line-height: 1; */
+   font-weight: 700;
+    background-clip: text;
+    color: transparent; 
+    font-family: 'Montserrat';
+    text-align: center;
+
+}
+.quote-Box2{
+    width: 100%;
+    color: #3E2B21;
+   font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.quote-Box3{
+    width: 100%;
+    
+   
+}
+.ant-input {
+    width: 100%;
+    background: linear-gradient(0deg, #E6E6E6, #E6E6E6),
+   linear-gradient(0deg, #F5F5F5, #F5F5F5);
+
+}
+.f1{
+   
+    padding: 0px 20px 0px 20px;
+    
+}
+
+.b1{
+  background: linear-gradient(90deg, #FFB700 0%, #FF2544 95.48%);
+  width: 100%;
+  border-radius: 25px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+
+}
+
+                  
+                   
+                   
