@@ -27,7 +27,7 @@
     font-size: 40px;
     background: linear-gradient(to right, #FFBA00, #FF2542);
    /* line-height: 1; */
-   font-weight: 700;
+    font-weight: 700;
     background-clip: text;
     color: transparent; 
     font-family: 'Montserrat';
@@ -73,7 +73,9 @@
   color: #FFFFFF;
 
 }
-
+.b1:hover{
+  color: #FFFFFF !important;
+}
                   
                    
                    

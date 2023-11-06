@@ -63,7 +63,9 @@
         display: none;
       }
 }
-
+.homeScreen-Txt4 button{
+    background: linear-gradient(90deg, #FFB700 0%, #FF2544 95.48%);
+}
 .img1{
     width: 100%;
     height:100vh;

@@ -33,7 +33,7 @@ function WebsiteHeader() {
           </div>
          </div>
       </div>
-       <div className="si" onClick={()=>setOpen(true)}><AiOutlineMenu className='aiicon'/></div>
+       <div className="si" onClick={()=>setOpen(true)}><AiOutlineMenu/></div>
     </div>
     <Drawer title="" placement="right" onClose={()=>setOpen(false)} open={open}>
         <p>Home</p>
@@ -49,3 +49,4 @@ function WebsiteHeader() {
 
 
 export default WebsiteHeader;
+

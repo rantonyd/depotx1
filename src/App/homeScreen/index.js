@@ -7,6 +7,7 @@ import i2 from "../../assets/Group 223780.png";
 import WebsiteHeader from "../../component/websiteHeader";
 import "./style.css"
 import HomeForm from "../../component/form";
+
 function HomeScreen(){
   
     return(
@@ -23,10 +24,10 @@ function HomeScreen(){
                 </div>
               </div>
             <div className="header-overlay">
-              <WebsiteHeader />
+               <WebsiteHeader /> 
             </div>
           </div>
-          <div className="homeScreen-Box2">
+          {/* <div className="homeScreen-Box2">
             <div className="homeScreen-Box3">
               <div>
                 <div className="homeScreen-Txt1">Storage in Dubai</div>
@@ -37,7 +38,7 @@ function HomeScreen(){
               <HomeForm/>
             </div>
             
-          </div>
+          </div> */}
         </div>
       </div>
     )
