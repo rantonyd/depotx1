@@ -27,7 +27,7 @@ function HomeScreen(){
                <WebsiteHeader /> 
             </div>
           </div>
-          {/* <div className="homeScreen-Box2">
+          <div className="homeScreen-Box2">
             <div className="homeScreen-Box3">
               <div>
                 <div className="homeScreen-Txt1">Storage in Dubai</div>
@@ -38,7 +38,7 @@ function HomeScreen(){
               <HomeForm/>
             </div>
             
-          </div> */}
+          </div>
         </div>
       </div>
     )
