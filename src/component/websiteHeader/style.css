@@ -11,14 +11,14 @@
     padding: 0px 0px 0px 20px ;
     display: flex; 
     align-items: center; 
-    @media Screen and (max-width: 300px) {
-        padding: 0px;
+    @media Screen and (max-width: 560px)  {
+        padding: 0px 0px 0px 6px;
        }
    
 }
 .logo{
-    @media Screen and (max-width: 300px) {
-        width: 80%;
+    @media Screen and (max-width: 560px) {
+        width: 60%;
        }
 }
 
@@ -115,8 +115,9 @@
     @media Screen and (min-width: 990px) {
         display: none;
       }
-      @media Screen and (max-width: 300px) {
+      @media Screen and (max-width: 560px) {
         justify-content: flex-end;
+        padding: 0px 7px 0px 0px;
        }
 }
 
