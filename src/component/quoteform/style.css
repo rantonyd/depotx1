@@ -1,0 +1,87 @@
+.quoteform{
+    
+    width: 100%;
+      /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:  0px;
+  
+     @media Screen and (min-width: 992px) {
+        display: none;
+      }
+  }
+  .quoteform-Box{
+      width: 100%;
+      height: 60%;
+      background: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      border-radius:8px;
+      /* position: absolute; */
+    
+     
+    }
+  .quoteform-Box1{
+      width: 100%;
+      font-size: 40px;
+      background: linear-gradient(to right, #FFBA00, #FF2542);
+     /* line-height: 1; */
+      font-weight: 700;
+      background-clip: text;
+      color: transparent; 
+      font-family: 'Montserrat';
+      text-align: center;
+      @media Screen and (max-width: 365px) {
+        font-size: 30px;
+      }
+  }
+  .quoteform-Box2{
+      width: 100%;
+      color: #3E2B21;
+     font-family: Montserrat;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: center;
+      @media Screen and (max-width: 365px) {
+        font-size: 10px;
+      }
+  }
+  .quoteform-Box3{
+      width: 100%;
+      
+     
+  }
+  .i1 {
+      width: 100%;
+      background: linear-gradient(0deg, #E6E6E6, #E6E6E6),
+     linear-gradient(0deg, #F5F5F5, #F5F5F5);
+  }
+  
+  .f01{
+     
+      padding: 0px 20px 0px 20px;
+      
+  }
+  
+  .bu1{
+    background: linear-gradient(90deg, #FFB700 0%, #FF2544 95.48%);
+    width: 100%;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+  
+  }
+  .bu1:hover{
+    color: #FFFFFF !important;
+    border: 1.5px solid orange !important;
+  }
+                    
+                     
+                     

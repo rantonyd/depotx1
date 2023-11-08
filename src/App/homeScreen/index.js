@@ -1,4 +1,5 @@
-import  {Button} from "antd";
+import React, { useState } from 'react';
+import  {Button,Modal} from "antd";
 import {AiFillTwitterCircle} from "react-icons/ai";
 import {BiLogoFacebookCircle } from "react-icons/bi"
 import img1 from "../../assets/Frame 177.png";
@@ -7,9 +8,22 @@ import i2 from "../../assets/Group 223780.png";
 import WebsiteHeader from "../../component/websiteHeader";
 import "./style.css"
 import HomeForm from "../../component/form";
+import QuoteForm from '../../component/quoteform';
 
 function HomeScreen(){
-  
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
     return(
       <div className="homeScreen">
        
@@ -33,7 +47,12 @@ function HomeScreen(){
                 <div className="homeScreen-Txt1">Storage in Dubai</div>
                 <div  className="homeScreen-Txt2">Unlimited storage anywhere</div>
                 <div  className="homeScreen-Txt3"> anytime at minimum cost</div>
-                <div className="homeScreen-Txt4"><Button>Get Quote</Button></div>
+                <div className="homeScreen-Txt4">
+                  <Button onClick={showModal}>Get Quote</Button>
+                  <Modal title="" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} className='custom-modal' footer={null}>
+                    <QuoteForm/>
+                  </Modal>
+                </div>
               </div>
               <HomeForm/>
             </div>

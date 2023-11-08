@@ -7,9 +7,10 @@
   align-items: center; 
   padding: 100px 0px 0px 0px;
 
-  @media Screen and (max-width: 950px) {
+  @media Screen and (max-width: 992px) {
     display: none;
   }
+  
 }
 .quote-Box{
     width: 73%;
@@ -32,6 +33,16 @@
     color: transparent; 
     font-family: 'Montserrat';
     text-align: center;
+    
+  /* @media Screen and (max-width: 970px) {
+    font-size: 30px;
+  }
+  @media Screen and (max-width: 740px) {
+    font-size: 25px;
+  }
+  @media Screen and (max-width: 670px) {
+    font-size: 20px;
+  } */
 
 }
 .quote-Box2{
@@ -43,6 +54,15 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
+    /* @media Screen and (max-width: 970px) {
+      font-size: 10px;
+    }
+    @media Screen and (max-width: 740px) {
+      font-size: 9px;
+    }
+    @media Screen and (max-width: 670px) {
+      font-size: 8px;
+    } */
 }
 .quote-Box3{
     width: 100%;
@@ -53,8 +73,9 @@
     width: 100%;
     background: linear-gradient(0deg, #E6E6E6, #E6E6E6),
    linear-gradient(0deg, #F5F5F5, #F5F5F5);
-
 }
+
+
 .f1{
    
     padding: 0px 20px 0px 20px;
@@ -75,6 +96,7 @@
 }
 .b1:hover{
   color: #FFFFFF !important;
+  border: 1.5px solid orange !important;
 }
                   
                    
