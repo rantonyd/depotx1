@@ -1,0 +1,107 @@
+.clientScreen{
+    width: 100%;
+    height: 800px;
+     display: flex;
+    justify-content: center; 
+     /* padding: 100px 0px 0px 0px;  */
+    /* background-color: #FFBA00; */
+}
+.clientScreen-Box1{
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.clientScreen-Box2{
+    width: 100%;
+    height: 80px;
+    font-family: Montserrat;
+    font-size: 44px;
+   font-weight: 700;
+   line-height: 54px;
+   letter-spacing: 0em;
+   text-align: center;
+   background:  linear-gradient(90deg, #FFBA00 0%, #FF2542 95.48%);
+   padding: 8px 0px 0px 0px;
+   color: transparent;
+   background-clip: text; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   @media Screen and (max-width: 560px)  {
+    font-size: 25px;
+   }
+}
+.clientScreen-Box3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+.m1{
+    width: 33%;
+    height: auto;
+    @media Screen and (max-width: 560px)  {
+        width: 30%;
+       }
+}
+ .cl1{
+    width:100%;
+    height:280px;
+    border-radius: 12px;
+} 
+.clientScreen-Box4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+.clientScreen-Box5{
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BBBBBB;
+    
+
+} 
+.bi1{
+    color: #BBBBBB;
+
+}
+.m1 {
+    position: relative;
+    display: inline-block;
+  }
+.image-container{
+    position: absolute;
+    bottom: 15%;
+   
+   
+    width:100%;
+    height: 40px;
+    font-family: Montserrat;
+font-size: 17px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+
+     
+    color: #FFFFFF;
+    background: #00000069;
+
+
+display: flex;
+align-items: center;
+    justify-content: space-evenly;
+    @media Screen and (max-width: 560px)  {
+        font-size: 8px;
+       }
+}

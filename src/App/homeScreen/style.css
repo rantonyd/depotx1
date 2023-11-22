@@ -36,12 +36,10 @@
     line-height: 71px;
     letter-spacing: 0em;
     text-align: left; 
-    @media Screen and (max-width: 760px) {
-        font-size: 41px;
+    @media Screen and (max-width: 560px) {
+        font-size: 36px;
       }
-      @media Screen and (max-width: 360px) {
-        font-size: 38px;
-      }
+      
   }
 .homeScreen-Txt2{
     color: white; 
@@ -51,12 +49,10 @@
     line-height: 71px;
     letter-spacing: 0em;
     text-align: left;
-    @media Screen and (max-width: 760px) {
-        font-size: 30px;
+    @media Screen and (max-width: 560px) {
+        font-size: 25px;
       }
-      @media Screen and (max-width: 360px) {
-        font-size: 27px;
-      }
+      
 }
 .homeScreen-Txt3{
     color: white; 
@@ -66,12 +62,10 @@
     line-height: 71px;
     letter-spacing: 0em;
     text-align: left;
-    @media Screen and (max-width: 760px) {
-        font-size: 30px;
+    @media Screen and (max-width: 560px) {
+        font-size: 25px;
       }
-      @media Screen and (max-width: 360px) {
-        font-size: 27px;
-      }
+     
 }
 .homeScreen-Txt4{
    
@@ -107,7 +101,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    
+  
 }
 
 /* .image-container {

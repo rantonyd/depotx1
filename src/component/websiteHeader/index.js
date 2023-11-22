@@ -1,15 +1,33 @@
-import React,{ useState } from 'react';
+import React,{ useState, useEffect } from 'react';
 import logos from "../../assets/depotx logo 1.png";
 import { SearchOutlined } from '@ant-design/icons';
 import { Button, Tooltip,Drawer } from 'antd';
 import {AiOutlineMenu } from "react-icons/ai";
-import "./style.css"
+import "./style.css";
 
 function WebsiteHeader() {
   const [open, setOpen] = useState(false);
+  
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <>
-    <div className="navbar">
+    <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="websiteHeader-Box1">
         <img className="logo" src={ logos } alt="" /> 
        </div>
@@ -28,9 +46,9 @@ function WebsiteHeader() {
             </Tooltip>
          </div>
          <div className="websiteHeader-Box5">
-          <div className="websiteHeader-Box6">
+          
             <Button type="text" >Get Quote</Button>
-          </div>
+         
          </div>
       </div>
        <div className="si" onClick={()=>setOpen(true)}><AiOutlineMenu/></div>

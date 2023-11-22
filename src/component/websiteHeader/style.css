@@ -2,22 +2,24 @@
     width: 100%;
     height: 80px;
     display: flex;
+    position: fixed;
     z-index: 1000;
     top: 0;
-   padding: 0px 20px 0px 20px;
    
-   @media Screen and (max-width: 560px)  {
-    padding: 0px 0px 0px 7px;
-   }
+ 
+   /* @media Screen and (max-width: 560px)  {
+    padding: 0px 0px 0px 0px;
+   } */
 }
 .websiteHeader-Box1{
     width: 100%;
     height: 100%;
-    /* padding: 0px 0px 0px 20px ; */
-    /* background-color: blue; */
+    padding: 0px 0px 0px 20px;
     display: flex; 
     align-items: center; 
-    
+    @media Screen and (max-width: 560px)  {
+        padding:0px 0px 0px 7px;
+       }
    
 }
 .logo{
@@ -30,9 +32,10 @@
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: center; 
     gap: 10px;
-    
+    padding: 0px 20px 0px 0px ;
+   
     @media Screen and (max-width: 990px) {
       display: none;
     }
@@ -43,7 +46,8 @@
     height: 100%;
     display: flex;
     gap: 10px; 
-    flex: 5;
+    justify-content: flex-end;
+    /* flex:6; */
     align-items: center;
 }  
  .item{
@@ -61,9 +65,11 @@
 .websiteHeader-Box4{
     width: 100%;
     height: 100%;
-    flex: 1;
+    flex: 0;
     display: flex;
-    align-items: flex-end;
+    /* align-items: flex-end; */
+    padding: 50px 0px 0px 0px;
+    /* margin-right: 0 */
 } 
 
 
@@ -82,31 +88,33 @@
 
 .websiteHeader-Box5{
     display: flex;
+    flex: 1;
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 0px 0px 0px 0px;
+   
 
 }
-.websiteHeader-Box6{
-    width: 60%;
-    padding: 0px 25px 0px 25px;
+/* .websiteHeader-Box6{ */
+    /* width: 60%; */
+    /* padding: 0px 25px 0px 25px;
     border-radius: 50px;
     background: linear-gradient(90deg, #FFB700 0%, #FF2544 95.48%);
-    align-items: center;
-}  
-.websiteHeader-Box6 button{
+    align-items: center; */
+/* 5 */
+.websiteHeader-Box5 button{
     font-family: Montserrat;
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
-    letter-spacing: 0em; 
-    /* text-align: left; */
+    letter-spacing: 0em;
+    border-radius: 50px; 
+    width: 100%;
     color: #FFFFFF;
-   padding: 0px;
-  
+   padding: 0px 25px 0px 25px;
+   background: linear-gradient(90deg, #FFB700 0%, #FF2544 95.48%);
 }
-.websiteHeader-Box6 button:hover {
+.websiteHeader-Box5 button:hover {
    
     color: #FFFFFF !important;
     
@@ -118,7 +126,7 @@
     justify-content:flex-end;
     align-items: center;
     width: 100%;
-    /* font-size: 40px; */
+   
 
     @media Screen and (min-width: 990px) {
         display: none;
@@ -127,6 +135,18 @@
         justify-content: flex-end;
         padding: 0px 7px 0px 0px;
        }
+       @media Screen and (min-width: 560px) {
+        justify-content: flex-end;
+        padding: 0px 20px 0px 0px;
+       }
 }
 
   
+.navbar {
+    
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar.scrolled {
+    background-color:rgb(45, 44, 44); 
+  }

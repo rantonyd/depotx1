@@ -2,6 +2,7 @@ import React from 'react';
 import p1 from "../../assets/Polygon 1.png";
 import p2 from "../../assets/Polygon 2.png";
 import f1 from "../../assets/Rectangle 13.png";
+import {IoArrowForwardCircleOutline} from "react-icons/io5"
 import "./style.css";
 function OfferScreen() {
   return (
@@ -28,7 +29,13 @@ function OfferScreen() {
          
       </div>
       <div className='offerScreen-Box4'>
-        <img className="poly" src={f1} alt="" />
+        <div className="button-container">
+            <img className="poly" src={f1} alt="" />
+            <div className='image-button'>
+             Get a quote <br/>within 24 hours <IoArrowForwardCircleOutline className='ia'/>
+            </div>
+          </div>
+        {/* <img className="poly" src={f1} alt="" /> */}
       </div>
       </div>
     </div>

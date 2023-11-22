@@ -1,0 +1,376 @@
+/* .websiteFooter{
+    width: 100%;
+    height: 100%;
+    background: #3E2B21;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.websiteFooter-Boxmain{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+}
+.websiteFooter-Box{
+    width: 55%;
+    height: auto;
+    
+    display: flex;
+}
+.websiteFooter-Box1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+ 
+}
+.log1{
+    width: 100px;
+   
+}
+.icons{
+  gap:8px;
+  display: flex;
+}
+.icon{
+    width: 14px;
+    height:14px
+}
+.mes{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+.mes1{
+   
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #F5F5F5;
+
+    display: flex;
+    gap: 8px;
+}
+.me1{
+  height: 24px;
+  width: 24px;
+}
+.websiteFooter-Box2{
+    width: 100%;
+  display: flex;
+  flex-direction: column; 
+ 
+  gap: 24px;
+
+}
+.info1{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #F5F5F5;
+
+}
+.info2{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #F5F5F5;
+
+}
+.websiteFooter-Box3{
+    width: 100%;
+  display: flex;
+  flex-direction: column; 
+ gap:6px;
+
+}
+.fe1{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5F5F5;
+
+   
+    
+}
+.fe2{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5F5F5;
+}
+.websiteFooter-Boxsmall{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+ 
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #FF950B
+}
+
+
+
+.li{
+    color: #F5F5F5;
+ 
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+
+
+} */
+.websiteFooter{
+    height: 400px;
+    width: 100%;
+    background: #3E2B21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    @media Screen and (max-width: 560px)  {
+        height: 100%;
+        
+     }
+    /* @media Screen and (max-width:720) {
+        height: 500px;
+       
+     } */
+   
+   
+}
+.websiteFooter-Box{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @media screen and (min-width: 561px) and (max-width: 720px) {
+        width: 85%;
+        /* justify-content: center; */
+     }
+    @media Screen and (min-width: 721px) and (max-width: 992px)  {
+       width: 75%;
+    } 
+   
+}
+
+
+    
+
+.Box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+
+    @media Screen and (max-width: 560px)  {
+        height: 100%;
+        flex-direction: column;
+        display:flex;
+        gap: 10px;
+    }
+    @media Screen and (min-width: 721px) and (max-width: 992px)  {
+        height: 320px;
+    } 
+    @media screen and (min-width: 561px) and (max-width: 720px) {
+        height: 320px;
+     }
+ 
+} 
+ .websiteFooter-Box1{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  
+        @media Screen and (max-width: 560px)  {
+            display: flex;
+            align-items: center;
+            padding: 10px 0px 0px 0px;
+         }
+        
+
+ }
+ 
+   .log1{
+      width: 100px;
+      @media Screen and (max-width: 560px)  {
+        width: 150px;
+     }
+
+  }
+  .icons{
+    gap:8px;
+    display: flex;
+   
+  }
+ .icon{
+      width: 24px;
+      height:24px;
+      
+  }
+  .mes{
+      display: flex;
+      flex-direction: column;
+      gap:15px;
+      @media Screen and (max-width: 560px)  {
+        align-items: center;
+     }
+  }
+  .mes1{
+     
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5F5F5;
+    display: flex;
+    gap: 8px;
+    @media screen and (min-width: 561px) and (max-width: 720px) {
+        font-size: 14px;
+        
+     }
+    
+    
+  }
+  .me1{
+    height: 24px;
+    width: 24px;
+    
+  } 
+  .websiteFooter-Box2{
+   
+  display: flex;
+  flex-direction: column; 
+ 
+  gap: 24px;
+  @media Screen and (max-width: 560px)  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+
+}
+.info1{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5F5F5;
+    @media Screen and (max-width: 560px)  {
+        font-size: 19px;
+     }
+     @media screen and (min-width: 561px) and (max-width: 720px) {
+        font-size: 14px;
+     }
+}
+.info2{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5F5F5;
+    @media screen and (min-width: 561px) and (max-width: 720px) {
+        font-size: 12px;
+     }
+    
+}
+.websiteFooter-Box3{
+   
+  display: flex;
+  flex-direction: column; 
+  gap:6px;
+ @media Screen and (max-width: 560px)  {
+    display: flex;
+    align-items: center;
+   
+ }
+
+}
+.fe1{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5F5F5;
+    @media Screen and (max-width: 560px)  {
+        font-size: 19px;
+     }
+     @media screen and (min-width: 561px) and (max-width: 720px) {
+        font-size: 14px;
+     }
+}
+.fe2{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5F5F5;
+    @media Screen and (max-width: 560px)  {
+        font-size: 15px;
+     }
+     @media screen and (min-width: 561px) and (max-width: 720px) {
+        font-size: 14px;
+     }
+    
+}
+.websiteFooter-Boxsmall{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+ 
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #FF950B;
+    @media Screen and (max-width: 560px)  {
+        font-size: 15px;
+     }
+}

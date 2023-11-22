@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center; 
   padding: 100px 0px 0px 0px;
-
+  
   @media Screen and (max-width: 992px) {
     display: none;
   }

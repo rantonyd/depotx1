@@ -1,19 +1,19 @@
 .offerScreen{
     width: 100%;
-    height: 100vh;
-    /* background-color: black; */
+    height:800px;
+    /* padding: 50px 0px 0px 0px; */
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
     
-    
-
 }
 .offerScreen-Box1{
-    width: 100%;
+    width: 85%;
     height: 100vh;
-    /* background-color:red; */
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    /* padding: 8px 100px 8px ; */
+    gap: 20px;
+   
     
 }
 .offerScreen-Box2{
@@ -29,41 +29,60 @@
     padding: 8px 0px 0px 0px;
     color: transparent;
     background-clip: text; 
-  
-
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
+    @media Screen and (max-width: 560px)  {
+        font-size: 30px;
+    }
+    
 }
 .offerScreen-Box3{
     width: 100%;
-    height: 100%;
-    background-color: blue;
-    display: flex;
-    z-index: 1000;
    
+    display: flex;
+    z-index: 1000; 
+ 
+    @media Screen and (max-width: 992px)  {
+       height: auto;
+    }
+    @media Screen and (max-width: 560px)  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:auto;
+    }
+    
 }
 .offerScreen-Box3-1{
     width: 100%;
     height: 100%;
-    background-color:violet;
     display: flex;
-    flex-direction: column;
-   gap: 10px;
-   /* padding-left: 20px; */
-
+    flex-direction: column; 
+    gap: 10px;
+    @media Screen and (max-width: 560px)  {
+        height: auto;
+    }
+   
+     
+   
 }
 .offerScreen-Box3-2{
     width: 100%; 
     height: 100%; 
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; 
     gap: 10px;
+    @media Screen and (max-width: 560px)  {
+        height: auto;
+    }
    
+    
 }
 .not{
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
@@ -71,21 +90,34 @@
     display: flex;
     align-items: center;
     color: #3E2B21;
-    background-color: #FFBA00;
-    /* padding-left: 70px; */
-
+    @media Screen and (max-width: 992px)  {
+        font-size: 14px;
+    }
+    @media Screen and (max-width: 560px)  {
+        font-size: 14px;
+    }
+      
 }
 .p1{
     padding: 0px 15px 0px 10px;
+    @media Screen and (max-width: 560px)  {
+        padding: 0px 10px 0px 0px;
+        width: 10px;
+        }
+   
 }
 .p2{
     padding: 0px 10px 0px 0px;
-    
+   
+    @media Screen and (max-width: 560px)  {
+       
+        width: 10px;
+        }
 }
 .para2{
    
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
@@ -93,18 +125,72 @@
     display: flex;
     align-items: center;
     color: #3E2B21;
+    @media Screen and (max-width: 992px)  {
+        font-size: 14px;
+    }
+    @media Screen and (max-width: 560px)  {
+        font-size: 14px;
+       
+    }
    
 }
 .offerScreen-Box4{
     width: 100%;
-    height: auto;
-    background-color: #FF2542;
-    /* padding: 0px; */
+    height: 100%;
 }
 .poly{
     width: 100%;
-    /* height: 50%; */
     padding: 0px; 
     border-radius: 12px;
 
 }
+.button-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-button {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 240px;
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+     
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #FFB700 0%, #FF2544 95.48%);
+
+display: flex;
+align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    @media Screen and (max-width: 720px)  {
+        width: 180px;
+        height: 50px;
+        font-size: 10px;
+     }
+    @media Screen and (max-width: 560px)  {
+       width: 100px;
+       height: 40px;
+       font-size: 6px;
+    }
+   
+  }
+  .ia{
+    width: 30px;
+    height: 30px;
+     @media Screen and (max-width: 560px)  {
+        width:10px;
+        height: 10px;
+     } 
+     @media Screen and (max-width: 720px)  {
+        width:20px;
+        height: 20px;
+     } 
+  }
